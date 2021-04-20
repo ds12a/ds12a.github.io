@@ -59,7 +59,7 @@
       "random": false,
       "straight": false,
       "out_mode": "out",
-      "bounce": true,
+      "bounce": false,
       "attract": {
         "enable": true,
         "rotateX": 600,
