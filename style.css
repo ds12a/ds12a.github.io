@@ -1,7 +1,6 @@
-.nav > li > a:hover{
+.li > a:hover{
   background-color:rgb(8,124,252); 
   color: white !important;
-  transition: 0.5s !important;
 }
 body {
     background-color: black;
@@ -28,7 +27,8 @@ body {
 }
 
 
-p, h1, div, img {
+p, h1, div, img, a {
+    transition: 0.5s;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
