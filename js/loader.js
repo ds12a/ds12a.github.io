@@ -8,7 +8,7 @@ function loadPage(file){
       break;
     }
   }
-  var id = file.slice(0,-4);
+  var id = file.slice(file.lastIndexOf("/")+1,file.length-5);
   alert("id: "+id);
   $('#'+id).addClass(' active');
   $("#content").load(file);
