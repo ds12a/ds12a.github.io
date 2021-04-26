@@ -4,7 +4,7 @@
 }
 body {
     background-color: black;
-    padding: 55px; 
+    top-padding: 50px; 
 }
 * {
     color: white;
