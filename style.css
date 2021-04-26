@@ -1,4 +1,8 @@
-
+.nav > li > a:hover{
+  background-color:rgb(8,124,252); 
+  color: white !important;
+  transition: 0.5s !important;
+}
 body {
     background-color: black;
     padding: 55px; 
