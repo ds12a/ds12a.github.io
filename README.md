@@ -1,2 +1,2 @@
 # Homepage of dshen12
-Experiments with js.
+README is not necessary! Go look at the content on the website!
