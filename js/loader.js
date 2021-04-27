@@ -1,4 +1,4 @@
-var IDs = ["home", "test"];
+var IDs = ["home", "quotes"];
 function loadPage(file){
   for(i of IDs){
     if ($('#'+i).hasClass('active')) {
