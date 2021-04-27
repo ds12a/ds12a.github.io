@@ -4,7 +4,11 @@ body {
 * {
     color: white;
 }
-
+nav > li > a:hover{
+  background-color:rgb(8,124,252); 
+  color: white !important;
+  transition: 0.5s;
+}
 /* the #id of your div */
 #particles-js {
     /* stay in a constant spot on the page, regardless of scroll */
