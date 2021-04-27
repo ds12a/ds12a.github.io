@@ -4,6 +4,9 @@ body {
 * {
     color: white;
 }
+.navbar{
+    opacity: 1;
+}
 nav > li > a:hover{
   background-color:rgb(8,124,252); 
   color: white !important;
