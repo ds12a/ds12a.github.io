@@ -4,15 +4,6 @@ body {
 * {
     color: white;
 }
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
 /* the #id of your div */
 #particles-js {
     /* stay in a constant spot on the page, regardless of scroll */
