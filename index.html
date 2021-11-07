@@ -80,6 +80,6 @@
     var pageName = getParameterByName("page");
     if (pageName == null) loadPage("./pages/home.html");
     else if (IDs.includes(pageName)) loadPage("./pages/" + pageName + ".html");
-    else loadPage("./pages/home.html");
+    else loadPage("../404.html");
   </script>
 </html>
