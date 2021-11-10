@@ -1,2 +1,3 @@
-# Homepage of dshen12
-README is not necessary! Go look at the content on the website!
+# Personal Website
+
+http://ds12a.github.io/
