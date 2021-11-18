@@ -1,4 +1,4 @@
-var IDs = ["home", "quotes", "projects", "skills", "helpful_links", "accomplishments"];
+var IDs = ["home", "quotes", "projects", "skills", "helpful_links", "accomplishments", "about_me"];
 
 function goToPage(name) {
   document.location = "?page="+name;
