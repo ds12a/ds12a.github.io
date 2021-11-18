@@ -12,11 +12,12 @@ function loadPage(file){
       break;
     }
   }
-  var id = file.slice(file.lastIndexOf("/")+1,file.length-5);
-  if (!IDs.includes(id)) {
-    id = "404";
-    file = "../404.html";
+  //var id = file.slice(file.lastIndexOf("/")+1,file.length-5);
+  if (!IDs.includes(file)) {
+    //id = "home";
+    file = "404";
   }
+  file = "../pages/" + file + ".html";
   $('#'+id).addClass(' active');
   $("#content").load(file);
 }
