@@ -1,7 +1,7 @@
 var IDs = ["home", "quotes", "projects", "skills", "helpful_links", "accomplishments", "about_me"];
 
 function goToPage(name) {
-  document.location = "?page="+name;
+  document.location = "#"+name;
 }
 
 function loadPage(file){
@@ -12,6 +12,10 @@ function loadPage(file){
     }
   }
   var id = file.slice(file.lastIndexOf("/")+1,file.length-5);
+  if (!IDs.includes(id)) {
+    id = "404";
+    file = "../404.html";
+  }
   $('#'+id).addClass(' active');
   $("#content").load(file);
 }
