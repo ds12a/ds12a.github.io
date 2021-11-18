@@ -89,6 +89,11 @@
     //if (pageName == null) loadPage("./pages/home.html");
     //else if (IDs.includes(pageName)) loadPage("./pages/" + pageName + ".html");
     //else loadPage("./pages/404.html");
-    loadPage(decodeURI(window.location.hash).substr(1));
+    if (window.location.hash) {
+      loadPage(decodeURI(window.location.hash).substr(1));
+    }
+    else {
+      loadPage("home");
+    }
   </script>
 </html>
