@@ -5,7 +5,6 @@ function goToPage(name) {
 }
 
 function loadPage(file){
-  alert(file);
   for(i of IDs){
     if ($('#'+i).hasClass('active')) {
       $('#'+i).removeClass('active');
