@@ -13,8 +13,9 @@ function loadPage(file){
     }
   }
   //var id = file.slice(file.lastIndexOf("/")+1,file.length-5);
+  var id = file;
   if (!IDs.includes(file)) {
-    //id = "home";
+    id = "home";
     file = "404";
   }
   file = "../pages/" + file + ".html";
