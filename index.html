@@ -84,12 +84,11 @@
       </div>
     </div>
   </footer>
-    <!---
   <script> 
-    var pageName = getParameterByName("page");
-    if (pageName == null) loadPage("./pages/home.html");
-    else if (IDs.includes(pageName)) loadPage("./pages/" + pageName + ".html");
-    else loadPage("./pages/404.html");
+    //var pageName = getParameterByName("page");
+    //if (pageName == null) loadPage("./pages/home.html");
+    //else if (IDs.includes(pageName)) loadPage("./pages/" + pageName + ".html");
+    //else loadPage("./pages/404.html");
+    loadPage(decodeURI(window.location.hash).substr(1));
   </script>
---->
 </html>
