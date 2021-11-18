@@ -16,7 +16,7 @@
     <script src="./js/loader.js" crossorigin="anonymous"></script>
     
   </head>
-  <body >
+  <body onhashchange="loadPage(decodeURI(window.location.hash).substr(1))">
     <div class="card bg-dark border-light">
       <div class="card-body">
         <div class="row">        
@@ -84,10 +84,12 @@
       </div>
     </div>
   </footer>
+    <!---
   <script> 
     var pageName = getParameterByName("page");
     if (pageName == null) loadPage("./pages/home.html");
     else if (IDs.includes(pageName)) loadPage("./pages/" + pageName + ".html");
     else loadPage("./pages/404.html");
   </script>
+--->
 </html>
