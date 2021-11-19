@@ -20,6 +20,7 @@ function loadPage(file){
   file = "../pages/" + file + ".html";
   $('#'+id).addClass(' active');
   $("#content").load(file);
+  document.title = id.charAt(0).toUpperCase() + id.slice(1);
 }
 
 function getParameterByName(name, url = window.location.href) {
