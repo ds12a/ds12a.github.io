@@ -15,7 +15,7 @@ function loadPage(file){
   var id = file;
   if (!IDs.includes(file)) {
     id = "home";
-    file = "404";
+    file = "home";
   }
   file = "../pages/" + file + ".html";
   $('#'+id).addClass(' active');
