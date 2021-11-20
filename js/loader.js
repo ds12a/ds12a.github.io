@@ -1,4 +1,4 @@
-var IDs = ["home", "quotes", "projects", "skills", "helpful_links", "accomplishments", "about_me"];
+var IDs = ["home", "quotes", "helpful_links", "about_me"];
 
 function goToPage(name) {
   document.location = "#"+name;
@@ -21,13 +21,4 @@ function loadPage(file){
   $('#'+id).addClass(' active');
   $("#content").load(file);
   document.title = id.charAt(0).toUpperCase() + id.slice(1);
-}
-
-function getParameterByName(name, url = window.location.href) {
-  name = name.replace(/[\[\]]/g, '\\$&');
-  var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-    results = regex.exec(url);
-  if (!results) return null;
-  if (!results[2]) return '';
-  return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
