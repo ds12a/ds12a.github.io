@@ -17,49 +17,36 @@
   </head>
   
   <body onhashchange="loadPage(decodeURI(window.location.hash).substr(1))">
-    <div class="fill">
-      <div class="container-fluid bg-light d-flex align-items-center justify-content-center">
-        <div>
-          <h1 class="text-primary display-1">The Website of ds12a</h1>
+    <div class="container-fluid bg-light d-flex align-items-center justify-content-center fill">
+      <div>
+        <h1 class="text-primary display-1">The Website of ds12a</h1>
+      </div>
+    </div>
+    <nav class="navbar bg-dark sticky-top navbar-expand-md mx-auto navbar-dark nav-pills">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/logo.png" alt="" width="30" height="30" class="rounded-circle d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav nav-pills me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" id="home" onclick="goToPage('home')"><i class="bi bi-house-door"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="about_me" onclick="goToPage('about_me')"><i class="bi bi-person"></i> About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="quotes" onclick="goToPage('quotes')"><i class="bi bi-chat-square-quote"></i> Famous Quotes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="helpful_links" onclick="goToPage('helpful_links')"><i class="bi bi-link"></i> Helpful Links</a>
+            </li>
         </div>
       </div>
-      <nav class="navbar bg-dark sticky-top navbar-expand-md mx-auto navbar-dark nav-pills">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./images/logo.png" alt="" width="30" height="30" class="rounded-circle d-inline-block align-text-top">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav nav-pills me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" id="home" onclick="goToPage('home')"><i class="bi bi-house-door"></i> Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="about_me" onclick="goToPage('about_me')"><i class="bi bi-person"></i> About Me</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="quotes" onclick="goToPage('quotes')"><i class="bi bi-chat-square-quote"></i> Famous Quotes</a>
-              </li>
-               <!---
-              <li class="nav-item">
-                <a class="nav-link" id="skills" onclick="goToPage('skills')"><i class="bi bi-code-square"></i> My Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="projects" onclick="goToPage('projects')"><i class="bi bi-tools"></i> Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" id="accomplishments" onclick="goToPage('accomplishments')"><i class="bi bi-trophy-fill"></i> Accomplishments</a>
-              </li>
-              --->
-              <li class="nav-item">
-                <a class="nav-link" id="helpful_links" onclick="goToPage('helpful_links')"><i class="bi bi-link"></i> Helpful Links</a>
-              </li>
-          </div>
-        </div>
-      </nav>
-    </div>
+    </nav>
     <div id="particles-js"></div>
     <br>
     <div class="container" id="content"></div>
