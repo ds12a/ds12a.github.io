@@ -1,7 +1,7 @@
 var IDs = ["home", "quotes", "helpful_links", "about_me"];
 
 function goToPage(name) {
-  document.location = "#"+name;
+  document.location = "#!"+name;
 }
 
 function loadPage(file){
