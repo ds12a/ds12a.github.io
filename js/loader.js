@@ -24,6 +24,6 @@ function loadPage(file){
 
 function setPageInfo(title, displayTitle, description) {
   document.title = title + " - ds12a";
-  document.getElementById("titile").innerHTML = displayTitle;
+  document.getElementById("title").innerHTML = displayTitle;
   document.getElementById("title_description").innerHTML = description;
 }
