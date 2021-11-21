@@ -7,10 +7,7 @@ body {
 * {
     color: white;
 }
-.fill { 
-    min-height: 90%;
-    height: 90%;
-}
+
 
 /* the #id of your div */
 #particles-js {
