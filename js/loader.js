@@ -13,12 +13,17 @@ function loadPage(file){
   }
   //var id = file.slice(file.lastIndexOf("/")+1,file.length-5);
   var id = file;
-  if (!IDs.includes(file)) {
+  if (id != "" && !IDs.includes(file)) {
     id = "home";
-    file = "home";
+    file = "404";
   }
   file = "../pages/" + file + ".html";
   $('#'+id).addClass(' active');
   $("#content").load(file);
-  document.title = id.charAt(0).toUpperCase() + id.slice(1);
+}
+
+function setPageInfo(title, displayTitle, description) {
+  document.title = title;
+  document.getElementById("titile").innerHTML = displayTitle;
+  document.getElementById("title_description").innerHTML = description;
 }
