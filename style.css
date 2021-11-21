@@ -7,6 +7,11 @@ body {
 * {
     color: white;
 }
+.fill { 
+    min-height: 90%;
+    height: 90%;
+}
+
 /* the #id of your div */
 #particles-js {
     /* stay in a constant spot on the page, regardless of scroll */
