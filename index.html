@@ -71,7 +71,7 @@
     //else if (IDs.includes(pageName)) loadPage("./pages/" + pageName + ".html");
     //else loadPage("./pages/404.html");
     if (window.location.hash) {
-      loadPage(decodeURI(window.location.hash).substr(1));
+      loadPage(decodeURI(window.location.hash).substr(2));
     }
     else {
       loadPage("home");
