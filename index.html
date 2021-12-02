@@ -22,16 +22,16 @@
         <p id="title_description" class="text-primary lead"> Welcome to my website (ds12a)!</p>
       </div>
     </div>
-    <nav class="navbar bg-dark sticky-top navbar-expand-sm mx-auto navbar-dark navbar-center nav-pills justify-content-center">
-      <div class="container-fluid" style="height: 10vh; text-align: center;">
-        <a class="navbar-brand" href="#">
-          <img src="./images/favicon.ico" alt="DS" width="70" height="70" class="rounded-circle d-inline-block align-text-top">
+    <nav class="navbar bg-dark sticky-top navbar-expand-sm navbar-dark nav-pills">
+      <div class="container-fluid" style="text-align: center;">
+        <a class="navbar-brand" href="#!home">
+          <img src="./images/favicon.ico" alt="DS12a" width="70" height="70" class="rounded-circle d-inline-block align-text-top">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav nav-pills justify-content-center me-auto mb-2 mb-lg-0">
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav nav-pills mx-auto">
             <li class="nav-item">
               <a class="nav-link" id="home" href="#!home"><i class="bi bi-house-door"></i> Home</a>
             </li>
@@ -44,6 +44,7 @@
             <li class="nav-item">
               <a class="nav-link" id="helpful_links" href="#!helpful_links"><i class="bi bi-link"></i> Helpful Links</a>
             </li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -65,10 +66,6 @@
     </div>
   </footer>
   <script> 
-    //var pageName = getParameterByName("page");
-    //if (pageName == null) loadPage("./pages/home.html");
-    //else if (IDs.includes(pageName)) loadPage("./pages/" + pageName + ".html");
-    //else loadPage("./pages/404.html");
     if (window.location.hash) {
       loadPage(decodeURI(window.location.hash).substr(2));
     }
