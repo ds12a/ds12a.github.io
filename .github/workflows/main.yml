@@ -32,6 +32,6 @@ jobs:
           
           npm install -D tailwindcss
           npx tailwindcss init
-          npx tailwindcss -i .../style.css -o .../style.css --watch
+          npx tailwindcss -i ./style.css -o ./style.css --watch
           
           echo Done
