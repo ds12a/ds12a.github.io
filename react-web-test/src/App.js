@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './images/favicon.ico';
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
         <title>Website of ds12a</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href={logo} type="image/x-icon" />
         <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/zephyr/bootstrap.min.css" rel="stylesheet" />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
