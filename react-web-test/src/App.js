@@ -20,7 +20,7 @@ function App() {
     </head>
     <body data-bs-spy="scroll" data-bs-target="#navigation" data-bs-offset="100">
         <div class="gradient">
-            <div class="container-fluid d-flex align-items-center justify-content-center" style="height: 90vh;">
+            <div class="container-fluid d-flex align-items-center justify-content-center" style={{height: '90vh'}}>
                 <div class="text-center">
                     <h1 id="title" class="text-light display-1" data-aos="fade-right" data-aos-duration="1000">
                         Hi there!
@@ -41,7 +41,7 @@ function App() {
             </div>
         </div>
         <nav id="navigation" class="navbar bg-dark sticky-top navbar-expand-md navbar-dark nav-pills">
-            <div class="container-fluid" style="text-align: center;">
+            <div class="container-fluid" style={{textAlign: 'center'}}>
                 <a class="navbar-brand" href="#">
                     <img src="./images/favicon.ico" alt="DS12a" width="32" height="32" class="rounded-circle d-inline-block align-text-center" />
                     ds12a
@@ -130,7 +130,7 @@ function App() {
                             <div data-aos="fade-down">
                                 <h2 class="card-subtitle text-white">Python</h2>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style={{width: '60%'}}></div>
                                 </div>
                             </div>
                         </div>
@@ -138,7 +138,7 @@ function App() {
                             <div data-aos="fade-down">
                                 <h2 class="card-subtitle text-white">C++</h2>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style={{width: '75%'}}></div>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +146,7 @@ function App() {
                             <div data-aos="fade-down">
                                 <h2 class="card-subtitle text-white">Java</h2>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"></div>
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style={{width: '50%'}}></div>
                                 </div>
                             </div>
                         </div>
@@ -156,7 +156,7 @@ function App() {
                             <div data-aos="fade-down">
                                 <h2 class="card-subtitle text-white">JavaScript</h2>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style={{width: '15%'}}></div>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +164,7 @@ function App() {
                             <div data-aos="fade-down">
                                 <h2 class="card-subtitle text-white">HTML</h2>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style={{width: '15%'}}></div>
                                 </div>
                             </div>
                         </div>
@@ -172,7 +172,7 @@ function App() {
                             <div data-aos="fade-down">
                                 <h2 class="card-subtitle text-white">CSS</h2>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style={{width: '15%'}}></div>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +182,7 @@ function App() {
                             <div data-aos="fade-down">
                                 <h2 class="card-subtitle text-white">Octave</h2>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 5%;"></div>
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style={{width: '5%'}}></div>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +200,7 @@ function App() {
                             <div data-aos="fade-down">
                                 <h2 class="card-subtitle text-white">Pytorch</h2>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style={{width: '10%'}}></div>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +208,7 @@ function App() {
                             <div data-aos="fade-down">
                                 <h2 class="card-subtitle text-white">Tensorflow</h2>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"></div>
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style={{width: '10%'}}></div>
                                 </div>
                             </div>
                         </div>
@@ -216,7 +216,7 @@ function App() {
                             <div data-aos="fade-down">
                                 <h2 class="card-subtitle text-white">React.js</h2>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%;"></div>
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style={{width: '5%'}}></div>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@ function App() {
                             <div data-aos="fade-down">
                                 <h2 class="card-subtitle text-white">Numpy/Pandas/Matplotlib</h2>
                                 <div class="progress">
-                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 15%;"></div>
+                                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style={{width: '15%'}}></div>
                                 </div>
                             </div>
                         </div>
