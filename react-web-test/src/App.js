@@ -2,6 +2,8 @@ import logo from './images/favicon.ico';
 import './App.css';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { SubtitleCard, SkillCard, TextCard } from './CardLayouts.js'
+import {progLangPct, libPct} from './data.js'
 
 AOS.init();
 
@@ -13,9 +15,7 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href={logo} type="image/x-icon" />
         <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/zephyr/bootstrap.min.css" rel="stylesheet" />
-        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
-        <link rel="stylesheet" href="style.css" />
         <div className="gradient">
           <div className="container-fluid d-flex align-items-center justify-content-center" style={{height: '90vh'}}>
             <div className="text-center">
@@ -40,7 +40,7 @@ function App() {
         <nav id="navigation" className="navbar bg-dark sticky-top navbar-expand-md navbar-dark nav-pills">
           <div className="container-fluid" style={{textAlign: 'center'}}>
             <a className="navbar-brand" href="#">
-              <img src="./images/favicon.ico" alt="DS12a" width={32} height={32} className="rounded-circle d-inline-block align-text-center" />
+              <img src={logo} alt="DS12a" width={32} height={32} className="rounded-circle d-inline-block align-text-center" />
               ds12a
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,129 +108,9 @@ function App() {
               <p className="card-text">Here are some additional things about me:</p>
             </div>
           </div>
-          <div className="card bg-dark bg-gradient w-75 mx-auto" data-aos="fade-right">
-            <div className="card-body">
-              <h1 className="card-title text-center"><i className="bi bi-code-square" /> My Skills</h1>
-              <p className="card-text text-center">
-                The following are some of the things I have explored and know about.
-              </p>
-            </div>
-          </div>
-          <br />
-          <div className="card bg-dark bg-gradient text-white" data-aos="fade-down">
-            <div className="card-body">
-              <h1 className="card-title text-center"><i className="bi bi-code" /> Programming Languages</h1>
-              <br />
-              <div className="row">
-                <div className="col col-md mb-4">
-                  <div data-aos="fade-down">
-                    <h2 className="card-subtitle text-white">Python</h2>
-                    <div className="progress">
-                      <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={60} aria-valuemin={0} aria-valuemax={100} style={{width: '60%'}} />
-                    </div>
-                  </div>
-                </div>
-                <div className="col col-md mb-4">
-                  <div data-aos="fade-down">
-                    <h2 className="card-subtitle text-white">C++</h2>
-                    <div className="progress">
-                      <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={75} aria-valuemin={0} aria-valuemax={100} style={{width: '75%'}} />
-                    </div>
-                  </div>
-                </div>
-                <div className="col col-md mb-4">
-                  <div data-aos="fade-down">
-                    <h2 className="card-subtitle text-white">Java</h2>
-                    <div className="progress">
-                      <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={50} aria-valuemin={0} aria-valuemax={100} style={{width: '50%'}} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col col-md mb-4">
-                  <div data-aos="fade-down">
-                    <h2 className="card-subtitle text-white">JavaScript</h2>
-                    <div className="progress">
-                      <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={15} aria-valuemin={0} aria-valuemax={100} style={{width: '15%'}} />
-                    </div>
-                  </div>
-                </div>
-                <div className="col col-md mb-4">
-                  <div data-aos="fade-down">
-                    <h2 className="card-subtitle text-white">HTML</h2>
-                    <div className="progress">
-                      <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={15} aria-valuemin={0} aria-valuemax={100} style={{width: '15%'}} />
-                    </div>
-                  </div>
-                </div>
-                <div className="col col-md mb-4">
-                  <div data-aos="fade-down">
-                    <h2 className="card-subtitle text-white">CSS</h2>
-                    <div className="progress">
-                      <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={15} aria-valuemin={0} aria-valuemax={100} style={{width: '15%'}} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col col-md mb-4">
-                  <div data-aos="fade-down">
-                    <h2 className="card-subtitle text-white">Octave</h2>
-                    <div className="progress">
-                      <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={15} aria-valuemin={0} aria-valuemax={100} style={{width: '5%'}} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <br />
-            </div>
-          </div>
-          <br />
-          <div className="card bg-dark bg-gradient text-white" data-aos="fade-down">
-            <div className="card-body">
-              <h1 className="card-title text-center"><i className="bi bi-file-earmark-code-fill" /> Programming Libraries</h1>
-              <br />
-              <div className="row">
-                <div className="col col-md mb-4">
-                  <div data-aos="fade-down">
-                    <h2 className="card-subtitle text-white">Pytorch</h2>
-                    <div className="progress">
-                      <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={10} aria-valuemin={0} aria-valuemax={100} style={{width: '10%'}} />
-                    </div>
-                  </div>
-                </div>
-                <div className="col col-md mb-4">
-                  <div data-aos="fade-down">
-                    <h2 className="card-subtitle text-white">Tensorflow</h2>
-                    <div className="progress">
-                      <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={10} aria-valuemin={0} aria-valuemax={100} style={{width: '10%'}} />
-                    </div>
-                  </div>
-                </div>
-                <div className="col col-md mb-4">
-                  <div data-aos="fade-down">
-                    <h2 className="card-subtitle text-white">React.js</h2>
-                    <div className="progress">
-                      <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={5} aria-valuemin={0} aria-valuemax={100} style={{width: '5%'}} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col col-md mb-4">
-                  <div data-aos="fade-down">
-                    <h2 className="card-subtitle text-white">Numpy/Pandas/Matplotlib</h2>
-                    <div className="progress">
-                      <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={15} aria-valuemin={0} aria-valuemax={100} style={{width: '15%'}} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <br />
-            </div>
-          </div>
-          <br />
+          <SubtitleCard title="My Skills" icon="bi-code-square" text="The following are some of the things I have explored and know about."></SubtitleCard>
+          <SkillCard title="Programming Languages" icon="bi bi-code" skillPct={progLangPct}></SkillCard>
+          <SkillCard title="Programming Libraries" icon="bi bi-file-earmark-code-fill" skillPct={libPct}></SkillCard>
           <div className="row">
             <div className="col-md mb-4">
               <div className="card bg-dark bg-gradient" data-aos="fade-down">
