@@ -41,7 +41,7 @@ function App() {
           <div className="container-fluid" style={{textAlign: 'center'}}>
             <a className="navbar-brand" href="#">
               <img src={logo} alt="DS12a" width={32} height={32} className="rounded-circle d-inline-block align-text-center" />
-              ds12a
+              12a
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" />
