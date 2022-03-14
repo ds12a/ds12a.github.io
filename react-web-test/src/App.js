@@ -9,12 +9,14 @@ AOS.init();
 
 function App() {
   return (
-    <div>
+    <div style={{ position: 'relative', overflow: "hidden" }}>
+
         <title>Website of ds12a</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href={logo} type="image/x-icon" />
         <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/zephyr/bootstrap.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
         <div className="gradient">
           <div className="container-fluid d-flex align-items-center justify-content-center" style={{height: '90vh'}}>
@@ -57,7 +59,6 @@ function App() {
             </div>
           </div>
         </nav>
-        <div id="particles-js" />
         <br />
         <div className="container">
           <div data-aos="fade-right" id="home">
