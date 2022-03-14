@@ -98,7 +98,7 @@ function App() {
         </div>
         <footer>
           <div data-aos="fade-up" className="container" id="bottom">
-            <GenericCard text={"Built with the help of Jquery, Bootstrap 5, AOS, and Particles.js\n\nUses the Zephyr theme from Bootswatch.\n\nWebsite built by ds12a ©2022"}></GenericCard>
+            <GenericCard text={"Built with the help of Jquery, Bootstrap 5, AOS, and React.js\n\nUses the Zephyr theme from Bootswatch.\n\nWebsite built by ds12a ©2022"}></GenericCard>
           </div>
         </footer>
         <br />
