@@ -5,14 +5,16 @@ const progLangPct = {
     "Javascript" : 20,
     "HTML" : 30,
     "CSS" : 20,
+    "Rust" : 10,
     "Octave" : 10
 };
 
 const libPct = {
-    "Pytorch" : 5,
+    "Pytorch" : 15,
     "Tensorflow" : 5,
-    "React.js" : 10,
-    "Numpy/Pandas/Matplotlib" : 15
+    "React.js" : 20,
+    "Numpy/Pandas/Matplotlib" : 15,
+    "Flask" : 5
 };
 
 const quotes = [
@@ -32,7 +34,7 @@ const accomplishments = {
 
 const projects = [
     {title: "This Website", text: "A personal website for myself meant to give myself a presence on the internet.", repository: "https://github.com/ds12a/ds12a.github.io/"},
-    {title: "STEM Passport", text: "A web app allowing users to mark locations as visited. Does not contain content because this project was halted before completion.", link: "https://ds12a.github.io/STEM-Passport/", repository: "https://github.com/ds12a/STEM-Passport"},
+    {title: "STEM Passport", text: "A web app allowing users to explore places of interest and mark them as visited. Does not contain content because this project was halted before completion.", link: "https://ds12a.github.io/STEM-Passport/", repository: "https://github.com/ds12a/STEM-Passport"},
     {title: "Quadratic Solver", text: "Feeling lazy? Use this site to solve those hairy looking quadratic equations!", link: "https://ds12a.github.io/Quadratic-Solver/", repository: "https://github.com/ds12a/Quadratic-Solver"}
 ];
 
