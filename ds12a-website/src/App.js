@@ -40,9 +40,9 @@ function App() {
           </div>
         </div>
         <nav id="navigation" className="navbar bg-dark sticky-top navbar-expand-md navbar-dark nav-pills">
-          <div className="container-fluid" style={{textAlign: 'center'}}>
+          <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              <img src={logo} alt="DS12a" width={32} height={32} className="rounded-circle d-inline-block align-text-center" />
+              <img src={logo} alt="DS" width={32} height={32} className="rounded-circle d-inline-block align-text-center" />
               12a
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +55,7 @@ function App() {
                 <a className="nav-link flex-fill text-light" href="#accomplishments"><i className="bi bi-trophy" /> Accomplishments</a>
                 <a className="nav-link flex-fill text-light" href="#projects"><i className="bi bi-book" /> Projects</a>
                 <a className="nav-link flex-fill text-light" href="#quotes"><i className="bi bi-chat-square-quote" /> Famous Quotes</a>
-                <a className="nav-link flex-fill text-light" href="https://github.com/ds12a"><i className="bi bi-github" /> Github Profile</a>
+                <a className="nav-link flex-fill text-light" href="https://github.com/ds12a" target="_blank"><i className="bi bi-github" /> Github Profile</a>
               </nav>
             </div>
           </div>
@@ -63,7 +63,7 @@ function App() {
         <br />
         <div className="container">
           <div data-aos="fade-right" id="home">
-            <AloneCard title="Welcome" text={"Hi there! This is the website of ds12a. Information here is posted for ease of access or for fun! As you can see, this site is mostly meaningless. I have populated this site with meaningless text and with some slightly meaningful links.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in. Non tellus orci ac auctor augue mauris. Tempor nec feugiat nisl pretium fusce. Pellentesque pulvinar pellentesque habitant morbi tristique. Sodales ut etiam sit amet nisl purus in. Aliquam sem fringilla ut morbi tincidunt augue. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Lectus nulla at volutpat diam ut venenatis tellus in. Netus et malesuada fames ac turpis egestas maecenas pharetra. Maecenas ultricies mi eget mauris."}></AloneCard>
+            <AloneCard title="Welcome" text={"Hi there! Information here is posted for ease of access or for fun! As you can see, this site is mostly meaningless. I have populated this site with meaningless text and with some slightly meaningful links.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in. Non tellus orci ac auctor augue mauris. Tempor nec feugiat nisl pretium fusce. Pellentesque pulvinar pellentesque habitant morbi tristique. Sodales ut etiam sit amet nisl purus in. Aliquam sem fringilla ut morbi tincidunt augue. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Lectus nulla at volutpat diam ut venenatis tellus in. Netus et malesuada fames ac turpis egestas maecenas pharetra. Maecenas ultricies mi eget mauris."}></AloneCard>
           </div>
           <div data-aos="fade-right" id="about_me">
             <AloneCard title="About Me" icon="bi bi-code-square" text={"I am _____ _____, a ______ at ____. Some things I enjoy include programming (with a interest in Deep Learning/RL) and problem-solving. I am an AIME and USACO Silver competitor, though I hope to soon achieve Platinum. My CS skills are almost completely self-taught.\n\nHere are some additional things about me:"}></AloneCard>
