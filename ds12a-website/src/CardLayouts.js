@@ -18,7 +18,7 @@ function ProgBars(props) {
             <div data-aos="fade-down">
               <h2 className="card-subtitle text-white">{key}</h2>
               <div className="progress">
-                <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={key} aria-valuemin={0} aria-valuemax={100} style={{width: value + '%'}} />
+                <div className="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow={value} aria-valuemin={0} aria-valuemax={100} style={{width: value + '%'}} />
               </div>
             </div>
           </div>

@@ -55,6 +55,7 @@ function App() {
                 <a className="nav-link flex-fill text-light" href="#accomplishments"><i className="bi bi-trophy" /> Accomplishments</a>
                 <a className="nav-link flex-fill text-light" href="#projects"><i className="bi bi-book" /> Projects</a>
                 <a className="nav-link flex-fill text-light" href="#quotes"><i className="bi bi-chat-square-quote" /> Famous Quotes</a>
+                <a className="nav-link flex-fill text-light" href="https://github.com/ds12a"><i className="bi bi-github" /> Github Profile</a>
               </nav>
             </div>
           </div>
