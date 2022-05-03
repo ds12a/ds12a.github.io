@@ -16,9 +16,9 @@ export default function Landing() {
           </h2>
           <div className="lg:mt-0 lg:flex-shrink-0">
             <div className="mt-12 inline-flex rounded-md shadow">
-              <button id="buttonAbout" type="button" className="py-4 px-6 bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+              <a id="buttonAbout" href="#about" className="py-4 px-6 bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
                 About
-              </button>
+              </a>
             </div>
           </div>
         </div>

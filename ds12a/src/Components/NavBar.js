@@ -4,7 +4,7 @@ import { Transition } from "@headlessui/react";
 export default function NavBar(props) {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="shadow">
+    <nav className="shadow bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -26,7 +26,7 @@ export default function NavBar(props) {
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
-              className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
@@ -99,6 +99,6 @@ function NavLinkList(props) {
 }
 function NavLink(props) {
   return (
-    <a href={props.link} className={"text-gray-900 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" + (props.block?" block":"")}>{props.text}</a>
+    <a href={props.link} className={"text-gray-900 transition duration-150 hover:bg-blue-700 hover:text-white hover:scale-125 px-3 py-2 text-sm font-medium" + (props.block?" block":"")}>{props.text}</a>
   );
 }
