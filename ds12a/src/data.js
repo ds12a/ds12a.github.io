@@ -6,32 +6,34 @@ const navLinks = [
 ];
 
 const skillLangs = [
-  {name : "Python", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "75%"},
-  {name : "C++", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "75%"},
-  {name : "Java", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "60%"},
-  {name : "HTML/CSS", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "70%"},
-  {name : "JavaScript", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "55%"},
-  {name : "Octave", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "10%"},
-  {name : "Rust", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "15%"}
+  {name : "Python", description : "My first programming language. Used to learn the fundementals of programming and gradually moved into computer vision and deep learning.", pct : "75%"},
+  {name : "C++", description : "My second programming language. Used for robotics and USACO.", pct : "75%"},
+  {name : "Java", description : "Used mainly for my AP CS class.", pct : "60%"},
+  {name : "HTML/CSS", description : "My experience is not great in CSS. I have not worked very much with web development.", pct : "40%"},
+  {name : "JavaScript", description : "See what I said about HTML/CSS.", pct : "55%"},
+  {name : "Octave", description : "Learned a bit of Octave for Introduction to Machine Learning by Andrew Ng on Coursera.", pct : "20%"},
+  {name : "Rust", description : "I am in the progress of learning this language for its memory safety and performance.", pct : "15%"}
 ];
 
 const skillLibs = [
-  {name : "Pytorch", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "30%"},
-  {name : "React.js", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "50%"},
-  {name : "Tailwind CSS", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "40%"},
-  {name : "Bootstrap", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "70%"},
-  {name : "Numpy", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "30%"},
-  {name : "Pandas", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "25%"},
-  {name : "Matplotlib", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", pct : "15%"}
+  {name : "Pytorch", description : "My experience with Pytorch is mostly composed of toying around with deep learning, especially with computer vision and NLP.", pct : "30%"},
+  {name : "React.js", description : "Used React.js to greatly simplify this website.", pct : "50%"},
+  {name : "Tailwind CSS", description : "Used for this website.", pct : "40%"},
+  {name : "Bootstrap", description : "Older versions of this website relied on Bootstrap, but I found this to be very uncustomizable and made my website appear like almost any other Bootstrap-based site.", pct : "70%"},
+  {name : "Numpy", description : "Used some Numpy along with Tensorflow and Pandas for deep learning.", pct : "30%"},
+  {name : "Pandas", description : "Used along with other libraries like Tensorflow and Pytorch.", pct : "25%"},
+  {name : "Matplotlib", description : "Data visualization!!!", pct : "15%"}
 ];
 
 const projects = [
-  {name : "My Website", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in.", link : "#"},
+  {name : "My Website", description : "There's not much of a description to write here.", link : "#"},
+  {name : "Quadratic Solver", description : "A quick remedy for my boredom and a quick way to brush up on my JS.", link : "https://github.com/ds12a/Quadratic-Solver"},
 ];
 
 const achievements = [
-  {name : "USACO Silver", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in."},
-  {name : "AIME", description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in."},
+  {name : "USACO Silver", description : "Achieved USACO Silver in the January 2021 contest with a full score on the Bronze contest, earning an in-contest promotion."},
+  {name : "AIME", description : "Qualifed for the 2022 AIME and made Achievement Roll on the AMC 12."},
+  {name : "SVSU Top 10", description : "See title."},
 ];
 
 const particlesConfig = {
@@ -309,7 +311,7 @@ const particlesConfig = {
       },
       "consent": false,
       "distance": 150,
-      "enable": true,
+      "enable": false,
       "frequency": 1,
       "opacity": 0.4,
       "shadow": {
