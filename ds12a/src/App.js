@@ -9,9 +9,6 @@ import Grid from './Components/Grid';
 function App() {
   return (
     <div className="text-center">
-      <title>Website of ds12a</title>
-      <meta charSet="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href={logo} type="image/x-icon" />
       <header class="sticky top-0 z-50">
         <div class="bg-yellow-200 relative text-yellow-600 py-3 px-3">
