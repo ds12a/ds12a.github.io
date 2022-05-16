@@ -1,2 +1,3 @@
-# ds12a.github.io
-My site.
+# Personal Website
+
+ds12a.github.io
