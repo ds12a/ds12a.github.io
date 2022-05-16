@@ -1,7 +1,7 @@
 import logo from './assets/images/favicon.ico';
 import {navLinks, skillLangs, skillLibs, projects, achievements} from './data.js';
 import './App.css';
-import NavBar from './Components/NavBar.js';
+import {NavBar, IconLinks} from './Components/NavBar.js';
 import Landing from './Components/Landing';
 import {ProgressCard, ProjectCard, TitleTextCard}  from './Components/Cards';
 import Grid from './Components/Grid';
@@ -91,6 +91,12 @@ function App() {
           }
         </Grid>  
       </div>
+      <footer>
+        <div className="flex justify-center">
+          <p>	&copy; 2022 ds12a &nbsp;</p>
+          <IconLinks/>
+        </div>
+      </footer>
     </div>
   );
 }

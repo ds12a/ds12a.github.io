@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 
-export default function NavBar(props) {
+function NavBar(props) {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="shadow bg-white">
@@ -113,3 +113,8 @@ function IconLinks(props) {
     </React.Fragment>
   );
 }
+
+export {
+  NavBar,
+  IconLinks
+};
