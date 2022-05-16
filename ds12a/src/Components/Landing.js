@@ -11,7 +11,7 @@ export default function Landing() {
               David Shen
             </span>
             <span data-aos="fade-up" className="block text-blue-400">
-              Programmer. Problem-solver. Math-enthusiast.
+              Programmer. Problem Solver. Math-Enthusiast.
             </span>
           </h2>
           <div className="lg:mt-0 lg:flex-shrink-0">
