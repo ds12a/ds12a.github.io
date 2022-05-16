@@ -2,7 +2,7 @@ import ProgBar from "./ProgBar";
 
 function Card(props) {
     return (
-        <div className={"bg-white rounded-lg shadow m-1 p-4 border-solid border-2 transition duration-150 hover:border-blue-600 hover:scale-105 " + props.className}>
+        <div data-aos="flip-left" className={"bg-white rounded-lg shadow m-1 p-4 border-solid border-2 transition duration-150 hover:border-blue-600 hover:scale-105 " + props.className}>
             {props.children}
         </div>
     );

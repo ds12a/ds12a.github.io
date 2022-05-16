@@ -7,10 +7,10 @@ export default function Landing() {
         <Particles height="100vh" width='100vw' canvasClassName="-z-1 relative top-0 left-0 bottom-0 right-0 p-0 m-0" options={particlesConfig} />
         <div className="absolute z-30 h-screen grid place-items-center top-0 left-0 text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl" id="des">
-            <span className="block">
+            <span data-aos="fade-down" className="block">
               David Shen
             </span>
-            <span className="block text-blue-400">
+            <span data-aos="fade-up" className="block text-blue-400">
               Programmer. Problem-solver. Math-enthusiast.
             </span>
           </h2>
