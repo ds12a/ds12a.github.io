@@ -3,6 +3,7 @@ const navLinks = [
     {name : "Skills", link : "#skills"},
     {name : "Projects", link : "#projects"},
     {name : "Achievements", link : "#achievements"},
+    {name : "Blog", link : "https://ds12a.github.io/blog/"}
 ];
 
 const skillLangs = [
