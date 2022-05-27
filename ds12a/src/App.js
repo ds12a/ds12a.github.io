@@ -81,7 +81,7 @@ function App() {
 
         <h1 data-aos="fade-right" id="achievements"> Acheivements </h1>
         <p data-aos="fade-down">
-          Here are some of my recent achievements. Doesn't this section just scream about how accomplished I am? You know why the remaining text is here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in. Non tellus orci ac auctor augue mauris. 
+          Here are some of my recent achievements. Doesn't this section just scream about how accomplished I am (sarcasm???)? You know why the remaining text is here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim. Faucibus ornare suspendisse sed nisi lacus sed viverra tellus in. Non tellus orci ac auctor augue mauris. 
         </p>
         <Grid>
           {
