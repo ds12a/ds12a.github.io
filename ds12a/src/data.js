@@ -34,7 +34,8 @@ const projects = [
 const achievements = [
   {name : "USACO Silver", description : "Achieved USACO Silver in the January 2021 contest with a full score on the Bronze contest, earning an in-contest promotion."},
   {name : "AIME", description : "Qualifed for the 2022 AIME and made Achievement Roll on the AMC 12."},
-  {name : "SVSU Top 10", description : "See title."},
+  {name : "SVSU Programming Competition - Top 10", description : "Managed to be in the top 10 at the SVSU programming competition."},
+  {name : "Mid-Michigan Math Olympiad - 2nd place", description : "Took 2nd at the Mid-Michigan Math Olympiad."},
 ];
 
 const particlesConfig = {

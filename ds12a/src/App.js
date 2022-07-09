@@ -14,14 +14,14 @@ function App() {
   return (
     <div className="text-center">
       <link rel="icon" href={logo} type="image/x-icon" />
-      <header class="sticky top-0 z-50">
-        <div class="bg-yellow-200 relative text-yellow-600 py-3 px-3">
+      <header className="sticky top-0 z-50">
+        <div className="bg-yellow-200 relative text-yellow-600 py-3 px-3">
             This website is still under active development.
         </div>
         <NavBar links={navLinks} icon={logo}/>
       </header>
       <Landing/>
-      <div class="mx-10 my-10">
+      <div className="mx-10 my-10">
         <div className="grid grid-cols-2 divide-x">
           <div className="grid justify-center">
             <h1 data-aos="fade-right" id="about" className="underline decoration-sky-500"> About Me </h1>
@@ -47,7 +47,7 @@ function App() {
         <Grid>
           {
             skillLangs.map((s) => {
-              return <ProgressCard title={s.name} pct={s.pct} text={s.description}/>   
+              return <ProgressCard key={s.name} title={s.name} pct={s.pct} text={s.description}/>   
             })
           }
         </Grid>  
@@ -58,7 +58,7 @@ function App() {
         <Grid>
           {
             skillLibs.map((s) => {
-              return <ProgressCard title={s.name} pct={s.pct} text={s.description}/>   
+              return <ProgressCard key={s.name} title={s.name} pct={s.pct} text={s.description}/>   
             })
           }
         </Grid> 
@@ -72,7 +72,7 @@ function App() {
         <Grid>
           {
             projects.map((s) => {
-              return <ProjectCard title={s.name} link={s.link} text={s.description}/>   
+              return <ProjectCard key={s.name} title={s.name} link={s.link} text={s.description}/>   
             })
           }
         </Grid>
@@ -86,7 +86,7 @@ function App() {
         <Grid>
           {
             achievements.map((s) => {
-              return <TitleTextCard title={s.name} text={s.description}/>   
+              return <TitleTextCard key={s.name} title={s.name} text={s.description}/>   
             })
           }
         </Grid>  
