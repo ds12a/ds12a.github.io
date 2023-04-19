@@ -7,21 +7,21 @@ const navLinks = [
 ];
 
 const skillLangs = [
-  {name : "Python", description : "My first programming language. Used to learn the fundementals of programming and gradually moved into computer vision and deep learning.", pct : "75%"},
-  {name : "C++", description : "My second programming language. Used for robotics and USACO.", pct : "75%"},
-  {name : "Java", description : "Used mainly for my AP CS class.", pct : "60%"},
-  {name : "HTML/CSS", description : "My experience is not great in CSS. I have not worked very much with web development.", pct : "40%"},
-  {name : "JavaScript", description : "See what I said about HTML/CSS.", pct : "55%"},
+  {name : "Python", description : "My first programming language. Used to learn the fundementals of programming and gradually moved into computer vision and deep learning.", pct : "70%"},
+  {name : "C++", description : "My second programming language. Used for competitive programming.", pct : "75%"},
+  {name : "Java", description : "My third programming language. Used for robotics (go 2767!).", pct : "70%"},
+  {name : "HTML/CSS", description : "My experience is not great in CSS. I have not worked very much with web development.", pct : "30%"},
+  {name : "JavaScript", description : "See what I said about HTML/CSS.", pct : "35%"},
   {name : "Octave", description : "Learned a bit of Octave for Introduction to Machine Learning by Andrew Ng on Coursera.", pct : "20%"},
   {name : "Rust", description : "I am in the progress of learning this language for its memory safety and performance.", pct : "15%"}
 ];
 
 const skillLibs = [
   {name : "Pytorch", description : "My experience with Pytorch is mostly composed of toying around with deep learning, especially with computer vision and NLP.", pct : "30%"},
-  {name : "React.js", description : "Used React.js to greatly simplify this website.", pct : "50%"},
+  {name : "React.js", description : "Used React.js to greatly simplify the structure of this website.", pct : "50%"},
   {name : "Tailwind CSS", description : "Used for this website.", pct : "40%"},
   {name : "Bootstrap", description : "Older versions of this website relied on Bootstrap, but I found this to be very uncustomizable and made my website appear like almost any other Bootstrap-based site.", pct : "70%"},
-  {name : "Numpy", description : "Used some Numpy along with Tensorflow and Pandas for deep learning.", pct : "30%"},
+  {name : "Numpy", description : "Used some Numpy along with Pytorch and Pandas for deep learning.", pct : "30%"},
   {name : "Pandas", description : "Used along with other libraries like Tensorflow and Pytorch.", pct : "25%"},
   {name : "Matplotlib", description : "Data visualization!!!", pct : "15%"}
 ];
@@ -33,8 +33,8 @@ const projects = [
 
 const achievements = [
   {name : "USACO Silver", description : "Achieved USACO Silver in the January 2021 contest with a full score on the Bronze contest, earning an in-contest promotion."},
-  {name : "AIME", description : "Qualifed for the 2022 AIME and made Achievement Roll on the AMC 12."},
-  {name : "SVSU Programming Competition - Top 10", description : "Managed to be in the top 10 at the SVSU programming competition."},
+  {name : "AIME (2x)", description : "Qualifed for the 2022 and the 2023 AIME and made Achievement Roll on the AMC 12."},
+  {name : "SVSU Programming Competition - Second Place", description : "Placed 2nd at the SVSU programming competition."},
   {name : "Mid-Michigan Math Olympiad - 2nd place", description : "Took 2nd at the Mid-Michigan Math Olympiad."},
 ];
 
