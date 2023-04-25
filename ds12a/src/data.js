@@ -35,6 +35,8 @@ const achievements = [
   {name : "USACO Silver", description : "Achieved USACO Silver in the January 2021 contest with a full score on the Bronze contest, earning an in-contest promotion."},
   {name : "AIME (2x)", description : "Qualifed for the 2022 and the 2023 AIME and made Achievement Roll on the AMC 12."},
   {name : "SVSU Programming Competition - Second Place", description : "Placed 2nd at the SVSU programming competition."},
+
+  {name : "WMU Integration Bee - Second Place", description : "Placed 2nd at the 2023 WMU Integration Bee."},
   {name : "Mid-Michigan Math Olympiad - 2nd place", description : "Took 2nd at the Mid-Michigan Math Olympiad."},
 ];
 
